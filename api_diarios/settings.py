@@ -25,7 +25,6 @@ SECRET_KEY = 'django-insecure-^pvv2kb23u#*g=0^r26^@^gs^cr2qw&m_a6yc(k(8vn71n$$v2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -77,14 +76,15 @@ WSGI_APPLICATION = 'api_diarios.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',  
-        'USER': 'postgres',  
-        'PASSWORD': 'wzbZKGojjvlzMqgqtIBzCRkWAVZlvXwg', 
-        'HOST': 'postgres-production-3cc5.up.railway.app',  
-        'PORT': '5432', 
-    }
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "diarios",
+        "USER": "postgres",
+        "PASSWORD": "owtdkvs7",
+        "HOST": "31.97.161.248",  # sem http://
+        "PORT": "55432",          # porta que você mapeou no Docker
+        "CONN_MAX_AGE": 60,       # opcional
+}
 }
 
 # Password validation

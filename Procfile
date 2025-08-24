@@ -1,1 +1,1 @@
-web: gunicorn api_diarios.wsgi
+web: gunicorn api_diarios.wsgi 
