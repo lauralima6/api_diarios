@@ -55,7 +55,7 @@ cd api_diarios
 docker-compose up --build
 
 ```
-A API etsá disponível em: (link da API em produção)
+A API está disponível em produção e hospedada em uma VPS Linux. Acesse através do link:
 ```
 http://31.97.161.248:8000/apipublicacoes/
 ```
