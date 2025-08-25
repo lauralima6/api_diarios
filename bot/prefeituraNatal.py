@@ -33,7 +33,7 @@ class BotSelenium:
         else:
             print(f"error:{response.text}")
         
-    def download_diarios(self, url, nome_arquivo, pasta="pdfs"):
+    def download_diarios(self, url, nome_arquivo, pasta="bot/pdfs"):
 
         Path(pasta).mkdir(parents=True, exist_ok=True)
         caminho_arquivo = Path(pasta) / f"{nome_arquivo}.pdf"
