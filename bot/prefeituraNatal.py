@@ -52,7 +52,7 @@ class BotSelenium:
         with open(caminho_arquivo, "rb") as f:
             files = {"file": f}
             headers = {
-                "User-Agent": "curl/7.68.0"
+                "User-Agent": "Mozilla"
             }
 
             r = requests.post(url, files=files, headers=headers)
