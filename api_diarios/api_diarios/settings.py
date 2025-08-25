@@ -81,9 +81,9 @@ DATABASES = {
         "NAME": "diarios",
         "USER": "postgres",
         "PASSWORD": "owtdkvs7",
-        "HOST": "31.97.161.248",  # sem http://
-        "PORT": "55432",          # porta que você mapeou no Docker
-        "CONN_MAX_AGE": 60,       # opcional
+        "HOST": "31.97.161.248",  
+        "PORT": "55432",          
+        "CONN_MAX_AGE": 60,   
 }
 }
 
