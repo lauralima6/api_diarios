@@ -15,7 +15,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 class BotSelenium:
     def insert(self, url_publica, mes):
-        url = "http://localhost:8000/apipublicacoes/"
+        url = "http://31.97.161.248:8000/apipublicacoes/"
 
         payload = json.dumps({
             "url_pdf": url_publica,
